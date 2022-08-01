@@ -4,7 +4,7 @@ using Nethereum.Hex.HexConvertors.Extensions;
 namespace Haxion.Core.Models
 {
     /// <summary>
-    /// Base class for different curves' hd wallets
+    /// Base class for different curves' Haxion wallets
     /// Creates & keeps BIP39 seed either from a seed or from mnemonic & passpharese
     /// </summary>
     public abstract class HaxionWalletBase

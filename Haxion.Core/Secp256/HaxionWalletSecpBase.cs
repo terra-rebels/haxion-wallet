@@ -7,7 +7,7 @@ using NBitcoin;
 namespace Haxion.Core.Secp256
 {
     /// <summary>
-    /// Base class for Secp based HD wallets
+    /// Base class for Secp based Haxion wallets
     /// </summary>
     /// <typeparam name="TWallet"></typeparam>
     public abstract class HaxionWalletSecpBase<TWallet> : HaxionWalletBase, IHaxionWallet<TWallet> where TWallet : IWallet, new()
@@ -92,8 +92,8 @@ namespace Haxion.Core.Secp256
         [Obsolete("'accountIndexInfo' is not being used, used the overloads.")]
         public static IAccount<TWallet> GetAccountFromMasterKey(string accountMasterKey, uint accountIndexInfo)
         {
-            IAccount<TWallet> accountHDWallet = new AccountSecpBase<TWallet>(accountMasterKey, accountIndexInfo);
-            return accountHDWallet;
+            IAccount<TWallet> accountHaxionWallet = new AccountSecpBase<TWallet>(accountMasterKey, accountIndexInfo);
+            return accountHaxionWallet;
         }
 
         /// <summary>
@@ -103,8 +103,8 @@ namespace Haxion.Core.Secp256
         /// <returns></returns>
         public static IAccount<TWallet> GetAccountFromMasterKey(string accountMasterKey)
         {
-            IAccount<TWallet> accountHDWallet = new AccountSecpBase<TWallet>(accountMasterKey, Network.Main);
-            return accountHDWallet;
+            IAccount<TWallet> accountHaxionWallet = new AccountSecpBase<TWallet>(accountMasterKey, Network.Main);
+            return accountHaxionWallet;
         }
 
         /// <summary>
@@ -115,8 +115,8 @@ namespace Haxion.Core.Secp256
         /// <returns></returns>
         public static IAccount<TWallet> GetAccountFromMasterKey(string accountMasterKey, Network network)
         {
-            IAccount<TWallet> accountHDWallet = new AccountSecpBase<TWallet>(accountMasterKey, network);
-            return accountHDWallet;
+            IAccount<TWallet> accountHaxionWallet = new AccountSecpBase<TWallet>(accountMasterKey, network);
+            return accountHaxionWallet;
         }
     }
 }

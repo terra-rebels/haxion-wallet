@@ -16,7 +16,7 @@ namespace Haxion.Core.Secp256
         /// </summary>
         /// <param name="accountMasterKey"></param>
         /// <param name="accountIndex">Only for information, isn't being used for derivation</param>
-        [Obsolete("Use 'AccountHDWalletSecpBase(string accountMasterKey, uint accountIndex, Network network)'")]
+        [Obsolete("Use 'AccountHaxionWalletSecpBase(string accountMasterKey, uint accountIndex, Network network)'")]
         public AccountSecpBase(string accountMasterKey, uint accountIndex)
         {
             BitcoinExtKey bitcoinExtKey = new BitcoinExtKey(accountMasterKey, Network.Main);
