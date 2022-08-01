@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaxionWalletExec", "HaxionWalletExec\HaxionWalletExec.csproj", "{513FC983-1008-4131-82AE-EE1715288898}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haxion.Terra", "Haxion.Terra\Haxion.Terra.csproj", "{89C4DF1F-C554-486E-B9F8-4EA6D15F63B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haxion.NULS", "Haxion.NULS\Haxion.NULS.csproj", "{AF480816-7095-4B88-997D-DB0359D926DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haxion.ETH", "Haxion.ETH\Haxion.ETH.csproj", "{FBC0832C-6F31-4B47-BDC4-A0AD8769F48C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haxion.Tron", "Haxion.TRON\Haxion.Tron.csproj", "{D06B37AA-06FE-4230-B0F9-3E7B0E1656C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haxion.Core", "Haxion.Core\Haxion.Core.csproj", "{A48FA1AE-29B0-403E-8C59-BEC841591ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513FC983-1008-4131-82AE-EE1715288898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513FC983-1008-4131-82AE-EE1715288898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513FC983-1008-4131-82AE-EE1715288898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513FC983-1008-4131-82AE-EE1715288898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C4DF1F-C554-486E-B9F8-4EA6D15F63B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C4DF1F-C554-486E-B9F8-4EA6D15F63B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C4DF1F-C554-486E-B9F8-4EA6D15F63B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C4DF1F-C554-486E-B9F8-4EA6D15F63B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF480816-7095-4B88-997D-DB0359D926DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF480816-7095-4B88-997D-DB0359D926DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF480816-7095-4B88-997D-DB0359D926DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF480816-7095-4B88-997D-DB0359D926DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC0832C-6F31-4B47-BDC4-A0AD8769F48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC0832C-6F31-4B47-BDC4-A0AD8769F48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC0832C-6F31-4B47-BDC4-A0AD8769F48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC0832C-6F31-4B47-BDC4-A0AD8769F48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06B37AA-06FE-4230-B0F9-3E7B0E1656C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06B37AA-06FE-4230-B0F9-3E7B0E1656C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06B37AA-06FE-4230-B0F9-3E7B0E1656C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06B37AA-06FE-4230-B0F9-3E7B0E1656C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48FA1AE-29B0-403E-8C59-BEC841591ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48FA1AE-29B0-403E-8C59-BEC841591ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48FA1AE-29B0-403E-8C59-BEC841591ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48FA1AE-29B0-403E-8C59-BEC841591ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11364827-FFC3-4288-BE86-9D48A02C2E40}
+	EndGlobalSection
+EndGlobal
