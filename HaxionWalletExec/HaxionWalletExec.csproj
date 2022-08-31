@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Haxion.ETH\Haxion.ETH.csproj" />
+    <ProjectReference Include="..\Haxion.Solana\Haxion.Solana.csproj" />
     <ProjectReference Include="..\Haxion.TRON\Haxion.Tron.csproj" />
     <ProjectReference Include="..\Haxion.NULS\Haxion.NULS.csproj" />
     <ProjectReference Include="..\Haxion.Terra\Haxion.Terra.csproj" />
