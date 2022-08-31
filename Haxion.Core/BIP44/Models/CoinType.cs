@@ -6,6 +6,7 @@
         Tron = 195,
         Solana = 501,
         Terra = 330,
-        TerraOld = 118
+        TerraOld = 118,
+        Nuls = 0
     }
 }
